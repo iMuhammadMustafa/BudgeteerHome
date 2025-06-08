@@ -77,11 +77,19 @@ export const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Start Tracking Now
+              <a href="budgeteer.muhammadmustafa.dev/Login" className="text-lg">
+                Start Tracking Now
+              </a>
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button variant="glow" size="lg" className="text-lg px-8 py-4">
-              Watch Demo
+              <a
+                href="https://github.com/iMuhammadMustafa/Budgeteer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Documentation
+              </a>
             </Button>
           </div>
         </div>

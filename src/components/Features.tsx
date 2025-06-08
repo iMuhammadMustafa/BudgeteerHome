@@ -24,11 +24,11 @@ const features = [
   },
   {
     icon: Shield,
-    title: "Bank-Level Security",
+    title: "Multi Tenant ",
     description:
-      "Your financial data is protected with enterprise-grade encryption and security protocols.",
+      "Your financial data is shared with people you trust and invite to your tenancy.",
     tooltip:
-      "Uses 256-bit encryption and multi-factor authentication to protect your financial data. Compliant with banking industry security standards.",
+      "Easily manage shared budgets and expenses with customizable permissions. Collaborate with family or friends while keeping your data secure.",
   },
   {
     icon: Smartphone,

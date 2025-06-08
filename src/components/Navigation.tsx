@@ -21,7 +21,7 @@ export const Navigation = () => {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <TrendingUp className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-gradient">BudgetFlow</span>
+            <span className="text-xl font-bold text-gradient">Budgeteer</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -72,8 +72,12 @@ export const Navigation = () => {
                 </a>
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="ghost" className="justify-start">Sign In</Button>
-                <Button variant="hero" className="justify-start">Get Started</Button>
+                <Button variant="ghost" className="justify-start">
+                  Sign In
+                </Button>
+                <Button variant="hero" className="justify-start">
+                  Get Started
+                </Button>
               </div>
             </div>
           </div>

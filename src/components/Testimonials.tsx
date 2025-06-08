@@ -6,42 +6,48 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     role: "Marketing Manager",
-    content: "BudgetFlow completely transformed how I manage my finances. I've saved over $3,000 in just 6 months!",
+    content:
+      "Budgeteer completely transformed how I manage my finances. I've saved over $3,000 in just 6 months!",
     rating: 5,
     avatar: "SJ",
   },
   {
     name: "Michael Chen",
     role: "Software Developer",
-    content: "The automated categorization is incredible. It saves me hours every month and the insights are spot-on.",
+    content:
+      "The automated categorization is incredible. It saves me hours every month and the insights are spot-on.",
     rating: 5,
     avatar: "MC",
   },
   {
     name: "Emily Rodriguez",
     role: "Teacher",
-    content: "Finally, a budget app that actually makes sense. The visual reports help me understand my spending patterns.",
+    content:
+      "Finally, a budget app that actually makes sense. The visual reports help me understand my spending patterns.",
     rating: 5,
     avatar: "ER",
   },
   {
     name: "David Thompson",
     role: "Small Business Owner",
-    content: "The goal-setting feature motivated me to pay off my credit card debt 6 months ahead of schedule.",
+    content:
+      "The goal-setting feature motivated me to pay off my credit card debt 6 months ahead of schedule.",
     rating: 5,
     avatar: "DT",
   },
   {
     name: "Lisa Wang",
     role: "Freelance Designer",
-    content: "As someone with irregular income, BudgetFlow helps me stay on track even during lean months.",
+    content:
+      "As someone with irregular income, Budgeteer helps me stay on track even during lean months.",
     rating: 5,
     avatar: "LW",
   },
   {
     name: "James Miller",
     role: "Financial Advisor",
-    content: "I recommend BudgetFlow to all my clients. It's the most intuitive financial tracking tool I've seen.",
+    content:
+      "I recommend Budgeteer to all my clients. It's the most intuitive financial tracking tool I've seen.",
     rating: 5,
     avatar: "JM",
   },
@@ -55,14 +61,15 @@ export const Testimonials = () => {
           <span className="text-gradient">Trusted by</span> Thousands
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Join over 50,000 users who have transformed their financial lives with BudgetFlow.
+          Join over 50,000 users who have transformed their financial lives with
+          Budgeteer.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {testimonials.map((testimonial, index) => (
-          <Card 
-            key={index} 
+          <Card
+            key={index}
             className="hover-lift card-gradient border-primary/10 hover:border-primary/30 smooth-transition group"
           >
             <CardContent className="pt-6">
@@ -71,11 +78,11 @@ export const Testimonials = () => {
                   <Star key={i} className="w-4 h-4 fill-primary text-primary" />
                 ))}
               </div>
-              
+
               <blockquote className="text-muted-foreground mb-6 leading-relaxed">
                 "{testimonial.content}"
               </blockquote>
-              
+
               <div className="flex items-center gap-3">
                 <Avatar className="w-10 h-10">
                   <AvatarFallback className="bg-primary/10 text-primary font-semibold">
@@ -83,8 +90,12 @@ export const Testimonials = () => {
                   </AvatarFallback>
                 </Avatar>
                 <div>
-                  <div className="font-semibold text-foreground">{testimonial.name}</div>
-                  <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                  <div className="font-semibold text-foreground">
+                    {testimonial.name}
+                  </div>
+                  <div className="text-sm text-muted-foreground">
+                    {testimonial.role}
+                  </div>
                 </div>
               </div>
             </CardContent>

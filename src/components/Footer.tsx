@@ -1,4 +1,10 @@
-import { TrendingUp, Twitter, Facebook, Instagram, Linkedin } from "lucide-react";
+import {
+  TrendingUp,
+  Twitter,
+  Facebook,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -41,22 +47,35 @@ export const Footer = () => {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <TrendingUp className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold text-gradient">BudgetFlow</span>
+              <span className="text-xl font-bold text-gradient">Budgeteer</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-sm">
-              Empowering individuals to take control of their financial future through intelligent budget tracking and insights.
+              Empowering individuals to take control of their financial future
+              through intelligent budget tracking and insights.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition">
+              <a
+                href="#"
+                className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition"
+              >
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition">
+              <a
+                href="#"
+                className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition"
+              >
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition">
+              <a
+                href="#"
+                className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition"
+              >
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition">
+              <a
+                href="#"
+                className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground smooth-transition"
+              >
                 <Linkedin className="w-4 h-4" />
               </a>
             </div>
@@ -68,7 +87,10 @@ export const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.product.map((link) => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-muted-foreground hover:text-primary smooth-transition">
+                  <a
+                    href={link.href}
+                    className="text-muted-foreground hover:text-primary smooth-transition"
+                  >
                     {link.name}
                   </a>
                 </li>
@@ -81,7 +103,10 @@ export const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-muted-foreground hover:text-primary smooth-transition">
+                  <a
+                    href={link.href}
+                    className="text-muted-foreground hover:text-primary smooth-transition"
+                  >
                     {link.name}
                   </a>
                 </li>
@@ -94,7 +119,10 @@ export const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.support.map((link) => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-muted-foreground hover:text-primary smooth-transition">
+                  <a
+                    href={link.href}
+                    className="text-muted-foreground hover:text-primary smooth-transition"
+                  >
                     {link.name}
                   </a>
                 </li>
@@ -107,7 +135,10 @@ export const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.legal.map((link) => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-muted-foreground hover:text-primary smooth-transition">
+                  <a
+                    href={link.href}
+                    className="text-muted-foreground hover:text-primary smooth-transition"
+                  >
                     {link.name}
                   </a>
                 </li>
@@ -119,7 +150,7 @@ export const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} BudgetFlow. All rights reserved.
+            © {currentYear} Budgeteer. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm mt-4 md:mt-0">
             Made with ❤️ for your financial success

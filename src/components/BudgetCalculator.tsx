@@ -227,7 +227,8 @@ const BudgetCalculator = () => {
                       <p className="text-sm text-muted-foreground">
                         {savingsRate.toFixed(1)}% of income •{" "}
                         {goalProgress.toFixed(0)}% of goal
-                      </div>
+                      </p>
+                    </div>
 
                     {/* Potential Savings */}
                     <div className="space-y-3">

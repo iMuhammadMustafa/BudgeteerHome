@@ -7,7 +7,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Marketing Manager",
     content:
-      "Budgeteer completely transformed how I manage my finances. I've saved over $3,000 in just 6 months!",
+      "Budgeteer completely transformed how I manage my finances. I've saved over $3,000 in just 6 months! Unfortunately, it’s all in unused gift cards I found while decluttering my wallet.",
     rating: 5,
     avatar: "SJ",
   },
@@ -59,11 +59,16 @@ export const Testimonials = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           <span className="text-gradient">Trusted by</span> Thousands
+          <small className="text-muted-foreground text-xs opacity-70 mx-2">
+            (Not Really)
+          </small>
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Join over 50,000 users who have transformed their financial lives with
-          Budgeteer.
+          Join users who have transformed their financial lives with Budgeteer.
         </p>
+        <small className="text-muted-foreground text-xs opacity-70 mx-2">
+          (Placeholder Fake Testimonials Below)
+        </small>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -36,7 +36,9 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-muted-foreground">support@Budgeteer.com</p>
+                  <p className="text-muted-foreground">
+                    contact@muhammadmustafa.dev
+                  </p>
                 </div>
               </div>
 
@@ -46,7 +48,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Phone</p>
-                  <p className="text-muted-foreground">1-800-BUDGET-1</p>
+                  <p className="text-muted-foreground"></p>
                 </div>
               </div>
 
@@ -56,11 +58,11 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Office</p>
-                  <p className="text-muted-foreground">
+                  {/* <p className="text-muted-foreground">
                     123 Financial Street, Suite 100
                     <br />
                     San Francisco, CA 94102
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -70,9 +72,9 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Live Chat</p>
-                  <p className="text-muted-foreground">
+                  {/* <p className="text-muted-foreground">
                     Available 24/7 in the app
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

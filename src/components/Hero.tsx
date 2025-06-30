@@ -77,7 +77,10 @@ export const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              <a href="budgeteer.muhammadmustafa.dev/Login" className="text-lg">
+              <a
+                href="https://budgeteer.muhammadmustafa.dev/Login"
+                className="text-lg"
+              >
                 Start Tracking Now
               </a>
               <ArrowRight className="w-5 h-5" />

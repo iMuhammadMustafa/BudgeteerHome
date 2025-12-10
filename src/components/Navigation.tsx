@@ -39,10 +39,10 @@ export const Navigation = () => {
           <div className="hidden md:flex items-center gap-4">
             <ThemeToggle />
             <Button variant="ghost">
-              <a href="https://budgeteer.muhammadmustafa.dev/Login">Sign In</a>
+              <a href="https://app.muhammadmustafa.dev/Login">Sign In</a>
             </Button>
             <Button variant="hero">
-              <a href="https://budgeteer.muhammadmustafa.dev/Login">
+              <a href="https://app.muhammadmustafa.dev/Login">
                 Get Started
               </a>
             </Button>
@@ -77,12 +77,12 @@ export const Navigation = () => {
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
                 <Button variant="ghost" className="justify-start">
-                  <a href="https://budgeteer.muhammadmustafa.dev/Login">
+                  <a href="https://app.muhammadmustafa.dev/Login">
                     Sign In
                   </a>
                 </Button>
                 <Button variant="hero" className="justify-start">
-                  <a href="https://budgeteer.muhammadmustafa.dev/Login">
+                  <a href="https://app.muhammadmustafa.dev/Login">
                     Get Started
                   </a>
                 </Button>
